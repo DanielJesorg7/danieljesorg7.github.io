@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Daniel | Engineer, ML learner, content creator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EEF2F8; --ink:#14213D; --muted:#4A5873; --line:#B9C6DD; --accent:#2447D6; --signal:#F2B705; --card:#F8FAFD;
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--paper:#0E1626;--ink:#E8EEF9;--muted:#9FB0CC;--line:#2A3A59;--accent:#7C9BFF;--signal:#F2B705;--card:#142038;color-scheme:dark;}
+}
+:root[data-theme="dark"]{--paper:#0E1626;--ink:#E8EEF9;--muted:#9FB0CC;--line:#2A3A59;--accent:#7C9BFF;--signal:#F2B705;--card:#142038;color-scheme:dark;}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 "IBM Plex Sans",system-ui,sans-serif;
+  background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+  background-size:32px 32px;background-attachment:fixed;}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--paper);z-index:10}
+main{max-width:720px;margin:0 auto;padding:48px 20px 64px}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.1;margin:0}
+h1{font-size:clamp(3rem,13vw,5.5rem);font-weight:800;letter-spacing:-.03em}
+h2{font-size:1.6rem;font-weight:800;margin-bottom:16px}
+h3{font-size:1.15rem;font-weight:600;margin-bottom:6px}
+.lead{font-size:1.2rem;max-width:34em;margin:20px 0 0}
+.tag{display:inline-block;margin-top:24px;padding:6px 12px;background:var(--signal);color:#14213D;font-weight:500;font-size:.95rem;border-radius:4px}
+section{margin-top:56px;padding-top:24px;border-top:2px solid var(--ink)}
+.card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--accent);padding:16px 18px;margin-bottom:14px}
+.card p{margin:0;color:var(--muted)}
+.stats{display:flex;gap:28px;flex-wrap:wrap}
+.stats div{min-width:120px}
+.stats b{display:block;font:800 2.4rem/1 "Bricolage Grotesque",sans-serif;color:var(--accent)}
+.stats span{color:var(--muted);font-size:.95rem}
+a.btn{display:inline-block;margin:6px 10px 0 0;padding:12px 20px;border:2px solid var(--ink);color:var(--ink);text-decoration:none;font-weight:500;border-radius:4px}
+a.btn.main{background:var(--accent);border-color:var(--accent);color:#fff}
+:root[data-theme="dark"] a.btn.main,:root:not([data-theme="light"]) a.btn.main{color:#0E1626}
+a.btn:focus-visible{outline:3px solid var(--signal);outline-offset:3px}
+footer{margin-top:56px;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+  <h1>Daniel</h1>
+  <p class="lead">Final-year Mechanical Engineering student, self-taught machine learning builder, and content creator from West Africa.</p>
+  <span class="tag">Open to freelance and collaborations</span>
+
+  <section>
+    <h2>About</h2>
+    <p>I study Mechanical Engineering at Olabisi Onabanjo University, Ibogun campus. Alongside my degree I am teaching myself machine learning with Python, and I run a group of TikTok accounts built around music quote and lyric edits.</p>
+    <p>I like turning technical skills into things that earn: tools, content, and digital products.</p>
+  </section>
+
+  <section>
+    <h2>Reach</h2>
+    <div class="stats">
+      <div><b>60K+</b><span>combined TikTok followers</span></div>
+      <div><b>Multiple</b><span>accounts, one focused niche</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>What I work on</h2>
+    <div class="card"><h3>Short-form content</h3><p>Music quote and lyric edits, built for retention and sharing, and promoted through creator campaigns.</p></div>
+    <div class="card"><h3>Machine learning</h3><p>A 180-day self-directed path from Python basics toward real ML projects.</p></div>
+    <div class="card"><h3>Python and Telegram bots</h3><p>Small automation tools that save people time.</p></div>
+    <div class="card"><h3>Engineering final year project</h3><p>B.Eng research project, supervised within the Mechanical Engineering department at OOU.</p></div>
+  </section>
+
+  <section>
+    <h2>Get in touch</h2>
+    <p>For content partnerships, freelance work, or collaborations, send me an email.</p>
+    <a class="btn main" href="mailto:adelekedaniel10@gmail.com">adelekedaniel10@gmail.com</a>
+  </section>
+
+  <footer>&copy; 2026 Daniel</footer>
+</main>
+</body>
+</html>
